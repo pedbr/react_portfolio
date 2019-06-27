@@ -131,7 +131,7 @@ let colors = {
   'pedro-beije': '#d8c3a5',
   'pedro-gray': '#8e8d8a',
   'pedro-orange': '#e98074',
-  'pedro-red': '#e85a4f',
+  'pedro-yellow': '#FFD600',
 }
 
 module.exports = {
@@ -232,6 +232,7 @@ module.exports = {
       'Liberation Mono',
       'Courier New',
       'monospace',
+      'karla',
     ],
   },
 

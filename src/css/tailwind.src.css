@@ -6,7 +6,7 @@
 /** Page **/ 
 
 .page-wrapper {
-    @apply min-h-screen bg-pedro-red;
+    @apply min-h-screen bg-pedro-yellow;
 }
 .page-content {
     @apply flex flex-col w-full fixed pin-l pin-y;
@@ -14,29 +14,29 @@
 
 /** Header **/
 .header {
-    @apply flex items-center justify-between flex-wrap bg-pedro-red p-6;
+    @apply flex items-center justify-between flex-wrap bg-pedro-yellow p-6;
 }
 
 .header-title {
-    @apply text-pedro-creme text-3xl;
+    @apply text-black text-3xl;
 }
 
 /** Footer **/
 
 .footer-wrapper {
-    @apply border-t px-8 py-4;
+    @apply px-8 py-4;
 }
 
 .footer-content {
-    @apply flex justify-center text-pedro-creme;
+    @apply flex justify-center text-black font-serif;
 }
 
 /** Content section **/
 
 .content-wrapper {
-    @apply px-4 pt-4 flex-1 overflow-y-scroll text-pedro-creme;
+    @apply px-4 pt-4 flex-1 overflow-y-scroll text-black;
 }
 
 .content-text {
-    @apply text-pedro-creme;
+    @apply text-black;
 }
