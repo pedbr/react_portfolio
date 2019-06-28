@@ -1,20 +1,21 @@
-import React from "react"
-import { UndrawHello } from 'react-undraw-illustrations';
+import React, { useState } from "react";
+import ReactMapGL from "react-map-gl";
+
 
 const About = () => {
+    const [viewport, setViewport] = useState({
+        latitude: 49.133097,
+        longitude: 10.015682,
+        width: '100vw',
+        height: '100vh',
+        zoom: 100
+    });
+
     return (
-        <div className="content-wrapper">
-            <div className="flex flex-wrap mb-4">
-                <div className="w-full lg:w-1/4 md:w-1/2">
-                    <UndrawHello primaryColor='#12283a' height='200px'/>
-                </div>
-                <div className="w-full lg:w-3/4 md:w-1/2">
-                    <h1 className="content-text">About Me</h1>
-                    <p className="content-text">Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
-                </div>
-    
-            </div>
+        <div>
+        <ReactMapGL {...viewport}>markers here</ReactMapGL>
         </div>
+        
     )
     
 }
