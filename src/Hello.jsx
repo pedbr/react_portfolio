@@ -3,7 +3,7 @@ import React from "react"
 const Hello = () => {
         return (
             <div>
-                <div className= "hover:bg-black" style={centerDiv}>
+                <div className= "flex-wrap hover:bg-black" style={centerDiv}>
                     <p className= "hover:text-yellow">Hi,</p>
                     <p className= "hover:text-yellow">I'm</p>
                     <p className= "hover:text-yellow">Pedro .</p>
