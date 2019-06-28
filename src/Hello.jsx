@@ -3,10 +3,10 @@ import React from "react"
 const Hello = () => {
         return (
             <div>
-                <div style={centerDiv}>
-                    <p>Hi,</p>
-                    <p>I'm</p>
-                    <p>Pedro .</p>
+                <div className= "hover:bg-black" style={centerDiv}>
+                    <p className= "hover:text-yellow">Hi,</p>
+                    <p className= "hover:text-yellow">I'm</p>
+                    <p className= "hover:text-yellow">Pedro .</p>
                 </div>
                 <div style={centerBar}></div>
                 <div style={bottomDiv}>
@@ -18,6 +18,7 @@ const Hello = () => {
 }
 
 const centerDiv = {
+    width: '390px',
     marginLeft: '40%',
     marginTop: '5%',
     textAlign: 'left',

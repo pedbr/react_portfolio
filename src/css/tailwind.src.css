@@ -28,7 +28,7 @@
 }
 
 .footer-content {
-    @apply flex justify-center text-black font-serif;
+    @apply flex justify-center text-black font-sans;
 }
 
 /** Content section **/
