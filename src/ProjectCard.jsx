@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
             </div>
 
             <div className="flex items-center justify-between leading-none p-2 md:p-4">
-                <button style={detailsBtn} className="bg-black text-yellow hover:bg-pedro-gray text-xs py-1 px-2">
+                <button style={detailsBtn} className="bg-black text-yellow hover:bg-grey-darkest text-xs py-1 px-2">
                     Details .
                 </button>
             </div>

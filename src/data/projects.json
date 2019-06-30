@@ -1,56 +1,56 @@
 [
     {
         "id": 1,
-        "name": "My First Website",
-        "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
+        "name": "Portfolio with React",
+        "image": "./src/data/images/Portfolio.jpg",
         "description": "This was my first project. The guy lost, but won the popular vote!"
     },
     {
         "id": 2,
         "name": "FizzBuzz Challenge",
-        "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "image": "./src/data/images/Fizzbuzz.jpg",
         "description": "Designing user interfaces is fun. I want to learn more about that..."
     },
     {
         "id": 3,
         "name": "ATM System",
-        "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "image": "./src/data/images/Atm.jpg",
         "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
     },
     {
         "id": 4,
         "name": "Library App",
-        "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "image": "./src/data/images/Library.jpg",
         "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
     },
     {
         "id": 5,
-        "name": "Library App",
-        "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "name": "Address Book",
+        "image": "./src/data/images/AddressBook.jpg",
         "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
     },
     {
         "id": 6,
-        "name": "Library App",
-        "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "name": "ToDo List",
+        "image": "./src/data/images/Todo.jpg",
         "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
     },
     {
         "id": 7,
-        "name": "Library App",
-        "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "name": "Daily Joke",
+        "image": "./src/data/images/Joke.jpg",
         "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
     },
     {
         "id": 8,
-        "name": "Library App",
-        "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "name": "BMI Calculator",
+        "image": "./src/data/images/bmi.jpg",
         "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
     },
     {
         "id": 9,
-        "name": "Library App",
-        "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "name": "My First Website",
+        "image": "./src/data/images/first.jpg",
         "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
     }
 ]
