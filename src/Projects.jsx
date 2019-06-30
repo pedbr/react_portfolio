@@ -35,6 +35,9 @@ class Projects extends Component {
 
         return (
             <div className="content-wrapper">
+                <div className="hover:bg-black" style={projectsTitle}>
+                <p className= "hover:text-yellow">projects .</p>
+                </div>
     
                 <div className="flex flex-wrap -mx-1 lg:-mx-4">
                     {projectsList}
@@ -44,5 +47,18 @@ class Projects extends Component {
     
     }
 };
+
+const projectsTitle = {
+    width: "500px",
+    paddingBottom: '20px',
+    textAlign: 'left',
+    fontFamily: 'karla',
+    fontWeight: 'bold',
+    fontSize: '144px',
+    lineHeight: '122px',
+    letterSpacing: '-0.10em',
+    color: '#000000',
+    
+}
 
 export default Projects
