@@ -6,7 +6,7 @@
         "location": "Stockholm, Sweden",
         "name": "Full Stack Web Development Coding Bootcamp",
         "image": "./src/data/images/craftacademy.jpg",
-        "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
+        "description": "In June '19 I joined the CraftAcademy's Full Stack Web Development Coding Bootcamp. 12 weeks of intensive learning, coding and developing diverse projects from back-end to front-end."
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "location": "Stockholm, Sweden",
         "name": "Corporate Trainer",
         "image": "./src/data/images/webhelp.jpg",
-        "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
+        "description": "As the Trainer on the Travellink project, my main role was to train new hires arriving to the company on the company's procedures and on Amadeus GDS basics. I also work with upskilling the more experienced agents on advanced GDS practices. At the same time I offered support to the online and back-office agents as an advisor."
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "location": "Barcelona, Spain",
         "name": "Corporate Trainer",
         "image": "./src/data/images/edreams1.jpg",
-        "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
+        "description": "Just before completing my first year in the company, I was invited to join the Training Team, providing the training to new hires and developing active agents' skill set."
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "location": "Barcelona, Spain",
         "name": "Customer Service Representative",
         "image": "./src/data/images/edreams2.jpg",
-        "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
+        "description": "eDreams Odigeo is one of the biggest Online Travel Agency Groups. Here I offered support to clients on the Portuguese, Spanish and English speaking markets managing every type of requests regarding their bookings."
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "location": "Vila Real, Portugal",
         "name": "Designer and Marketeer",
         "image": "./src/data/images/novavisao.jpg",
-        "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
+        "description": "Here I was in charge of all the company’s advertisement, from the marketing strategies to the creation of media content. I also built websites, promo-videos, and managed social media"
     },
     {
         "id": 6,
@@ -51,6 +51,6 @@
         "location": "Covilha, Portugal",
         "name": "Multimedia Design Degree",
         "image": "./src/data/images/covilha.jpg",
-        "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
+        "description": "With this university degree I acquired expertise in many different areas such as Graphic Design, Web Design, Motion Graphics, Marketing, Advertisement, Photography and Video editting, Animation, among others."
     }
 ]
