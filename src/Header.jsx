@@ -7,7 +7,7 @@ const Header = () => {
                 <ul className="list-reset flex hover:bg-black">
                     <li className="mr-6 hover:bg-yellow"><NavLink style={headerHome} activeStyle={{fontWeight: "bold"}} to='/'>home .</NavLink></li>
                     <li className="mr-6 hover:bg-yellow"><NavLink style={headerProjects} activeStyle={{fontWeight: "bold"}} to='/projects'>projects .</NavLink></li>
-                    <li className="mr-6 hover:bg-yellow"><NavLink style={headerWork} activeStyle={{fontWeight: "bold"}} to='/projects'>work .</NavLink></li>
+                    <li className="mr-6 hover:bg-yellow"><NavLink style={headerWork} activeStyle={{fontWeight: "bold"}} to='/work'>work .</NavLink></li>
                     <li className="mr-6 hover:bg-yellow"><NavLink style={headerAbout} activeStyle={{fontWeight: "bold"}} to='/about'>about .</NavLink></li>
                 </ul>
             </nav>

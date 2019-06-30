@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "name": "Portfolio with React",
+        "image": "./src/data/images/Portfolio.jpg",
+        "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
+    }
+]

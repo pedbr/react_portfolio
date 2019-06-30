@@ -1,32 +1,32 @@
 import React, { Component } from "react"
 import axios from "axios"
-import ProjectCard from "./ProjectCard"
+import WorkCard from "./WorkCard"
 
-class Projects extends Component {
+class Work extends Component {
     constructor() {
         super();
         this.state = {
-            projects: []
+            works: []
         };
     }
     componentDidMount() {
-        axios.get('./src/data/projects.json')
+        axios.get('./src/data/works.json')
             .then(response => {
                 this.setState({
-                    projects: response.data
+                    works: response.data
                 })
             })
     }
 
     render() {
-        const projects = this.state.projects
-        let projectsList 
+        const works = this.state.works
+        let worksList 
 
-        if (projects.length > 0) {
-            projectsList = projects.map(project => {
+        if (works.length > 0) {
+            worksList = works.map(work => {
                 return (
-                    <div key={project.id} className="min-h-900 my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-                        <ProjectCard project={project} />
+                    <div key={work.id} className="min-h-1200 w-full">
+                        <WorkCard work={work} />
                     </div>
                 )
             })
@@ -37,7 +37,7 @@ class Projects extends Component {
             <div className="content-wrapper">
     
                 <div className="flex flex-wrap -mx-1 lg:-mx-4">
-                    {projectsList}
+                    {worksList}
                 </div>
             </div>
         )
@@ -45,4 +45,4 @@ class Projects extends Component {
     }
 };
 
-export default Projects
+export default Work
