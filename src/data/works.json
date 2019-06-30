@@ -5,7 +5,7 @@
         "company": "Craft Academy",
         "location": "Stockholm, Sweden",
         "name": "Full Stack Web Development Coding Bootcamp",
-        "image": "./src/data/images/Portfolio.jpg",
+        "image": "./src/data/images/craftacademy.jpg",
         "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
     },
     {
@@ -14,7 +14,7 @@
         "company": "Webhelp Nordic",
         "location": "Stockholm, Sweden",
         "name": "Corporate Trainer",
-        "image": "./src/data/images/Portfolio.jpg",
+        "image": "./src/data/images/webhelp.jpg",
         "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
     },
     {
@@ -23,7 +23,7 @@
         "company": "eDreams Odigeo",
         "location": "Barcelona, Spain",
         "name": "Corporate Trainer",
-        "image": "./src/data/images/Portfolio.jpg",
+        "image": "./src/data/images/edreams1.jpg",
         "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
     },
     {
@@ -32,7 +32,7 @@
         "company": "eDreams Odigeo",
         "location": "Barcelona, Spain",
         "name": "Customer Service Representative",
-        "image": "./src/data/images/Portfolio.jpg",
+        "image": "./src/data/images/edreams2.jpg",
         "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
     },
     {
@@ -41,7 +41,7 @@
         "company": "Novavisao Optics",
         "location": "Vila Real, Portugal",
         "name": "Designer and Marketeer",
-        "image": "./src/data/images/Portfolio.jpg",
+        "image": "./src/data/images/novavisao.jpg",
         "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
     },
     {
@@ -50,7 +50,7 @@
         "company": "Beira Interior University",
         "location": "Covilha, Portugal",
         "name": "Multimedia Design Degree",
-        "image": "./src/data/images/Portfolio.jpg",
+        "image": "./src/data/images/covilha.jpg",
         "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
     }
 ]
