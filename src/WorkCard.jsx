@@ -8,8 +8,10 @@ const WorkCard = (props) => {
             <img src={work.image} className="block h-auto w-full" style={{ height: '300px', objectFit: 'cover' }} />
 
 
-            <div className="px-6 py-4" style={{ minHeight: '300px' }} >
-                <div style={projectTitle} className="font-bold text-xl mb-2">{work.name} .</div>
+            <div className="px-6 py-4" style={{ minHeight: '100px' }} >
+                <div style={projectTitle} className="font-bold text-xl mb-2">{work.date} | {work.name} .</div>
+                <p>{work.company}</p>
+                <p>{work.location}</p>
                 <p className="text-black text-base">
                     {work.description}
                 </p>
