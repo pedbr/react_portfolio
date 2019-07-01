@@ -16,4 +16,4 @@ The composition of the website is pretty straight forward. A home page with a we
 
 Both the Project and Work tabs are linked to JSON files that function like a data base where all the projects/work experiences are stored. Through this files we can easily edit, remove or add new elements without interfeering with the app's code.
 
-This is a work in progress since I will be working on this project throughout the entire bootcamp and improve it with the new skills and knowledge I'll aquire.
+This is a work in progress since I will be working on this project throughout the entire bootcamp and improve it with the new skills and knowledge I'll acquire.
