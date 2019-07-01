@@ -2,54 +2,63 @@
     {
         "id": 1,
         "name": "Portfolio with React",
+        "website": "https://github.com/pedrocbras/react_portfolio",
         "image": "./src/data/images/Portfolio.jpg",
         "description": "Personal protfolio created with JavaScript's library React. Ever seen the movie Inception?"
     },
     {
         "id": 2,
         "name": "FizzBuzz Challenge",
+        "website": "https://github.com/pedrocbras/fizzbuzz_js",
         "image": "./src/data/images/Fizzbuzz.jpg",
         "description": "Have you ever played FizzBuzz? This app I developed will play with you!"
     },
     {
         "id": 3,
         "name": "ATM System",
+        "website": "https://github.com/pedrocbras/ATMChallenge",
         "image": "./src/data/images/Atm.jpg",
         "description": "Using Ruby I developed a fully functioning ATM System. Create a person and an account and interact with the sustem!"
     },
     {
         "id": 4,
         "name": "Library App",
+        "website": "https://github.com/Kirkegod/Library-Challenge",
         "image": "./src/data/images/Library.jpg",
         "description": "Another fully functioning app for a library. Adding books, leasing books, due dates and searches. It's all in there!"
     },
     {
         "id": 5,
         "name": "Address Book",
+        "website": "https://github.com/CA-ma/address_book_challenge",
         "image": "./src/data/images/AddressBook.jpg",
         "description": "This app developed with JavaScript allows you add contacts so you'll have everyone's number, email, name and much more at hand."
     },
     {
         "id": 6,
         "name": "ToDo List",
+        "website": "https://github.com/pedrocbras/to-do_list_react",
         "image": "./src/data/images/Todo.jpg",
         "description": "Because everyone has a lot to do everyday, this app I develop with React will help you keep track of your daily progress."
     },
     {
         "id": 7,
         "name": "Daily Joke",
+        "website": "https://github.com/pedrocbras/daily_joke",
         "image": "./src/data/images/Joke.jpg",
         "description": "In this app you can see what day it is today, aaand you get a different joke everytime as a bonus."
     },
     {
         "id": 8,
         "name": "BMI Calculator",
+        "website": "https://github.com/pedrocbras/bmi_calculator",
         "image": "./src/data/images/bmi.jpg",
         "description": "When was your last cheat day? Follow your dietary success (or insuccess) with this BMI calculator I developed with JavaScript."
     },
     {
         "id": 9,
         "name": "My First Website",
+        "website": "https://github.com/pedrocbras/pedrocbras.github.io",
         "image": "./src/data/images/first.jpg",
         "description": "When I started my coding bootcamp at Craft Academy, this was the first code I wrote! Fun times!"
     }

@@ -24,11 +24,11 @@
 /** Footer **/
 
 .footer-wrapper {
-    @apply px-8 py-4;
+    @apply px-8 py-4 bg-black;
 }
 
 .footer-content {
-    @apply flex justify-center text-black font-sans;
+    @apply flex justify-center text-yellow bg-black font-sans;
 }
 
 /** Content section **/
