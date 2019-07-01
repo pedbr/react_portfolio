@@ -9,7 +9,7 @@ const WorkCard = (props) => {
 
 
             <div className="px-6 py-4" style={{ minHeight: '100px' }} >
-                <div style={projectTitle} className="font-bold text-xl mb-2">{work.date} | {work.name} .</div>
+                <div style={workTitle} className="font-bold text-xl mb-2 text-yellow bg-black">{work.date} | {work.name} .</div>
                 <p style={companyStyle}>{work.company}</p>
                 <p style={locationStyle}>{work.location}</p>
                 <p style={descriptionStyle} className="text-black text-base">
@@ -36,7 +36,7 @@ const locationStyle = {
     marginBottom: '5px',
 }
 
-const projectTitle = {
+const workTitle = {
     fontFamily: 'karla',
     letterSpacing: '-0.10em',
     fontWeight: 'bold',
