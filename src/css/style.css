@@ -17,6 +17,16 @@
     line-height: 122px;
     letter-spacing: -0.10em;
     color: #000000;
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .inputBox {
