@@ -9,9 +9,11 @@ const App = () => {
         <div className="page-wrapper">
             <div>
                 <div className= "flex-wrap" style={centerDiv}>
-                    <p>Hi,</p>
-                    <p>I'm</p>
-                    <p>Pedro .</p>
+                    <div>Don't be a stranger !</div>
+                    <div style={centerQuestion}>What's your name?</div>
+                    <div>
+                        <input type='text' style={inputBox} placeholder=''></input>
+                    </div>
                 </div>
             </div>
         </div>
@@ -22,14 +24,33 @@ const App = () => {
 const centerDiv = {
     height: '100vh',
     display: 'flex',
+    flexWrap: 'wrap',
+    flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
     fontFamily: 'karla',
     fontWeight: 'bold',
-    fontSize: '144px',
+    fontSize: '100px',
     lineHeight: '122px',
     letterSpacing: '-0.10em',
     color: '#000000',
+}
+
+const centerQuestion = {
+    marginTop: '-50px',
+    marginBottom: '-50px',
+    fontSize: '60px',
+    letterSpacing: '-0.11em',
+}
+
+const inputBox = {
+    textAlign: 'center',
+    fontFamily: 'karla',
+    letterSpacing: '-0.11em',
+    width: '300px',
+    fontSize: '70px',
+    background: 'black',
+    color: '#ffd600',
     
 }
 
