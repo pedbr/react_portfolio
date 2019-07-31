@@ -1,0 +1,44 @@
+/* Intro page */
+.body {
+    flex-wrap: wrap;
+    background: #ffd600;
+}
+
+.centerIntro {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: karla;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 122px;
+    letter-spacing: -0.10em;
+    color: #000000;
+}
+
+.inputBox {
+    text-align: center;
+    font-family: karla;
+    letter-spacing: -0.11em;
+    width: 300px;
+    font-size: 70px;
+    background: black;
+    color: #ffd600;
+}
+
+.centerQuestion {
+    margin-top: -50px;
+    margin-bottom: -50px;
+    font-size: 60px;
+    letter-spacing: -0.11em;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

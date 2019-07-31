@@ -3,16 +3,17 @@ import ReactDOM from "react-dom"
 import './css/tailwind.css'
 import { BrowserRouter } from 'react-router-dom'
 import Home from "./Home"
+import '../src/css/style.css'
 
 const App = () => {
     return (
-        <div className="page-wrapper">
+        <div className="body">
             <div>
-                <div className= "flex-wrap" style={centerDiv}>
+                <div className='centerIntro'>
                     <div>Don't be a stranger !</div>
-                    <div style={centerQuestion}>What's your name?</div>
-                    <div>
-                        <input type='text' style={inputBox} placeholder=''></input>
+                    <div className='centerQuestion'>What's your name?</div>
+                    <div className='cursor'>
+                        <input type='text' className='inputBox' placeholder=''></input>
                     </div>
                 </div>
             </div>
@@ -20,39 +21,6 @@ const App = () => {
         // <Home />
     )
 };
-
-const centerDiv = {
-    height: '100vh',
-    display: 'flex',
-    flexWrap: 'wrap',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    fontFamily: 'karla',
-    fontWeight: 'bold',
-    fontSize: '100px',
-    lineHeight: '122px',
-    letterSpacing: '-0.10em',
-    color: '#000000',
-}
-
-const centerQuestion = {
-    marginTop: '-50px',
-    marginBottom: '-50px',
-    fontSize: '60px',
-    letterSpacing: '-0.11em',
-}
-
-const inputBox = {
-    textAlign: 'center',
-    fontFamily: 'karla',
-    letterSpacing: '-0.11em',
-    width: '300px',
-    fontSize: '70px',
-    background: 'black',
-    color: '#ffd600',
-    
-}
 
 ReactDOM.render((
     <BrowserRouter>
