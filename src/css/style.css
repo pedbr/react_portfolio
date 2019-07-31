@@ -1,11 +1,15 @@
 /* Intro page */
 .body {
+    height: 100vh;
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #ffd600;
 }
 
 .centerIntro {
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -16,6 +20,10 @@
     font-size: 100px;
     line-height: 122px;
     letter-spacing: -0.10em;
+    padding: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
     color: #000000;
     animation: fadeIn 3s;
 }
