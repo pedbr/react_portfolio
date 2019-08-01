@@ -15,10 +15,6 @@ const Header = () => {
 }
 
 const headerHome = {
-    // position: 'absolute',
-    // width: '56px',
-    // height: '28px',
-    // top: '35px',
     fontFamily: 'Karla',
     fontStyle: 'normal',
     fontWeight: 'bold',
@@ -30,10 +26,6 @@ const headerHome = {
     }
 
 const headerProjects = {
-    // position: 'absolute',
-    // width: '75px',
-    // height: '28px',
-    // top: '35px',
     fontFamily: 'Karla',
     fontStyle: 'normal',
     fontWeight: 'bold',
@@ -45,10 +37,6 @@ const headerProjects = {
     }
 
 const headerWork = {
-    // position: 'absolute',
-    // width: '75px',
-    // height: '28px',
-    // top: '35px',
     fontFamily: 'Karla',
     fontStyle: 'normal',
     fontWeight: 'bold',
@@ -60,10 +48,6 @@ const headerWork = {
     }
 
 const headerAbout = {
-    // position: 'absolute',
-    // width: '75px',
-    // height: '28px',
-    // top: '35px',
     fontFamily: 'Karla',
     fontStyle: 'normal',
     fontWeight: 'bold',

@@ -1,0 +1,15 @@
+.greeting {
+    text-align: left;
+    font-family: karla;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 122px;
+    letter-spacing: -0.10em;
+    color: #000000;
+}
+
+.center-bar {
+    width: 340px;
+    height: 6px;
+    background: #000000;
+}

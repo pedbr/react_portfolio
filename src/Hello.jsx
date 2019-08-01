@@ -1,44 +1,20 @@
 import React from "react"
+import '../src/css/hello.css'
 
 const Hello = () => {
         return (
-            <div>
-                <div className= "flex-wrap hover:bg-black" style={centerDiv}>
-                    <p className= "hover:text-yellow">Hi,</p>
-                    <p className= "hover:text-yellow">I'm</p>
-                    <p className= "hover:text-yellow">Pedro .</p>
+            <div className="center-div">
+                <div className= "greeting">
+                    <div>Hey John!</div>
+                    <div>I'm Pedro.</div>
                 </div>
-                <div style={centerBar}></div>
+                <div className="center-bar"></div>
                 <div style={bottomDiv}>
                     <p>Junior Developer .</p>
                     <p>Creative Designer .</p>
                 </div>
             </div>
         )
-}
-
-const centerDiv = {
-    width: '390px',
-    marginLeft: '40%',
-    marginTop: '5%',
-    textAlign: 'left',
-    fontFamily: 'karla',
-    fontWeight: 'bold',
-    fontSize: '144px',
-    lineHeight: '122px',
-    letterSpacing: '-0.10em',
-    color: '#000000',
-    
-}
-
-const centerBar = {
-    width: '340px',
-    height: '6px',
-    marginTop: '1%',
-    marginLeft: '40.5%',
-    left: '562px',
-    top: '645px',
-    background: '#000000',
 }
 
 const bottomDiv = {
