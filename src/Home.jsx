@@ -4,6 +4,7 @@ import Header from "./Header"
 import Work from "./Work"
 import Projects from "./Projects"
 import About from "./About"
+import '../src/css/intro.css'
 import { Switch, Route } from 'react-router-dom'
 
 const Home = () => {
