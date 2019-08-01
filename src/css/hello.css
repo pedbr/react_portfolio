@@ -1,3 +1,14 @@
+.center-div {
+    height: 80vh;
+    background: #ffd600;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .greeting {
     text-align: left;
     font-family: karla;
@@ -12,4 +23,14 @@
     width: 340px;
     height: 6px;
     background: #000000;
+}
+
+.bottom-div {
+    text-align: left;
+    font-family: karla;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 114.9%;
+    letter-spacing: -0.10em;
+    color: #000000;
 }
