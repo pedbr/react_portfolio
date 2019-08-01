@@ -9,20 +9,17 @@ import { Switch, Route } from 'react-router-dom'
 
 const Home = () => {
     return (
-        <div className="page-wrapper">
-            <div className="page-content">
-                <Header />
-                <div className="content-wrapper">
-                    <Switch>
-                        <Route exact path='/' component={Hello}></Route>
-                        <Route exact path='/about' component={About}></Route>
-                        <Route exact path='/projects' component={Projects}></Route>
-                        <Route exact path='/work' component={Work}></Route>
-                    </Switch>
-                </div>
-                
-            </div >
-        </div >
+      <div className="">
+          <Header />
+          <div className="">
+              <Switch>
+                  <Route exact path='/' component={Hello}></Route>
+                  <Route exact path='/about' component={About}></Route>
+                  <Route exact path='/projects' component={Projects}></Route>
+                  <Route exact path='/work' component={Work}></Route>
+              </Switch>
+          </div>
+      </div >
     )
 };
 

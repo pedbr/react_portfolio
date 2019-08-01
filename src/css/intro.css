@@ -1,12 +1,16 @@
 /* Intro page */
 .body {
     height: 100vh;
+    background: #ffd600;
+}
+
+.intro-message {
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #ffd600;
 }
 
 .centerIntro {
@@ -15,6 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: fit-content;
     font-family: karla;
     font-weight: bold;
     font-size: 100px;
