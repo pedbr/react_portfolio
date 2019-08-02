@@ -6,7 +6,7 @@ const Hello = () => {
         return (
             <div className="center-div">
                 <div className= "greeting">
-                    <div>Hey {localStorage.getItem('Name')}!</div>
+                    <div>Hey {localStorage.getItem('Name').charAt(0).toUpperCase() + localStorage.getItem('Name').slice(1).toLowerCase()}!</div>
                     <div>I'm Pedro .</div>
                 </div>
                 <div className="center-bar"></div>
