@@ -1,4 +1,5 @@
 import React from "react"
+import Intro from "./Intro"
 import Hello from "./Hello"
 import Header from "./Header"
 import Work from "./Work"
@@ -15,7 +16,8 @@ const Home = () => {
         </div>
         <div className="">
             <Switch>
-                <Route exact path='/' component={Hello}></Route>
+              <Route exact path='/' component={Intro}></Route>
+                <Route exact path='/hello' component={Hello}></Route>
                 <Route exact path='/about' component={About}></Route>
                 <Route exact path='/projects' component={Projects}></Route>
                 <Route exact path='/work' component={Work}></Route>
