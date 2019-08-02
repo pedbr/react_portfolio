@@ -9,7 +9,7 @@ import { Switch, Route } from 'react-router-dom'
 
 const Home = () => {
     return (
-      <div>
+      <div className="body-home">
         <div className="header-style">
           <Header />
         </div>

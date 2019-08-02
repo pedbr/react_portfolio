@@ -1,13 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import './css/tailwind.css'
 import { BrowserRouter } from 'react-router-dom'
 import Home from "./Home"
 import '../src/css/intro.css'
 
 const App = () => {
     return (
-        <div className="body">
+        <div className="body-index">
             {/* <div className="intro-message">
                 <div className='centerIntro'>
                     <div>Don't be a stranger !</div>
