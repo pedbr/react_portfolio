@@ -25,7 +25,7 @@ class Projects extends Component {
         if (projects.length > 0) {
             projectsList = projects.map(project => {
                 return (
-                    <div key={project.id} className="min-h-900 my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                    <div key={project.id} className="">
                         <ProjectCard project={project} />
                     </div>
                 )
@@ -34,12 +34,12 @@ class Projects extends Component {
 
 
         return (
-            <div className="content-wrapper">
-                <div className="hover:bg-black" style={projectsTitle}>
-                <p className= "hover:text-yellow">projects .</p>
+            <div className="">
+                <div className="">
+                <p className= "">projects .</p>
                 </div>
     
-                <div className="flex flex-wrap -mx-1 lg:-mx-4">
+                <div className="">
                     {projectsList}
                 </div>
             </div>
@@ -48,17 +48,5 @@ class Projects extends Component {
     }
 };
 
-const projectsTitle = {
-    width: "500px",
-    paddingBottom: '20px',
-    textAlign: 'left',
-    fontFamily: 'karla',
-    fontWeight: 'bold',
-    fontSize: '144px',
-    lineHeight: '122px',
-    letterSpacing: '-0.10em',
-    color: '#000000',
-    
-}
 
 export default Projects
