@@ -1,5 +1,5 @@
-const path = require("path")
-const webpack = require("webpack")
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
   entry: "./src/index.js",
@@ -29,7 +29,7 @@ module.exports = {
     port: 3000,
     publicPath: "http://localhost:3000/dist/",
     watchContentBase: true,
-    historyApiFallback: true,
+    historyApiFallback: true
   },
   plugins: [new webpack.HotModuleReplacementPlugin()]
-}
+};
